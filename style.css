@@ -1,0 +1,36 @@
+body {
+  font-family: 'Winky Rough';
+  background-color: #e0f2f1;
+}
+
+.fumo_div {
+  display: flex;
+  width: 70vw;
+  height: 60vh;
+}
+
+.fumo_div img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.button_and_comm {
+  display: flex;
+  max-width: 50%;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 2rem;
+}
+
+.random_fumo_btn {
+  height: 50px;
+}
+
+.button_and_comm button {
+  border: 1px solid #ffb6c1;
+  font-family: "Winky Rough";
+  font-size: 2rem;
+  min-height: 3rem;
+  cursor: pointer;
+}
